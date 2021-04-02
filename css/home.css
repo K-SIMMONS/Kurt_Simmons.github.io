@@ -1,0 +1,163 @@
+body{
+    background-color: #141415;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color:transparent;
+    color:white;
+    opacity: 0.7;
+    margin: 1px;
+    border-radius: 10px;
+    text-align: right;
+    position: relative;
+    /* text-shadow: 3px 3px black; */
+    font-weight: bold;
+    }
+
+li{
+    display: inline-block;
+    padding: 5px;
+    text-align: right;
+    position: relative;
+    top:50px;
+    font-size: larger;
+    
+}
+
+.logo{
+    position: relative;
+    float: left;
+    
+
+  }
+
+  a{
+    text-decoration: none;
+    color:chartreuse;
+}
+
+
+
+  
+ 
+  a:hover {
+    color: green;
+    text-decoration: none;
+  }
+
+  #carouselExampleControls{
+      margin-top: 60px;
+      opacity: 0.6;
+  }
+
+  .carousel_bg_image_styling {
+    height: 500;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#carousel_slide_one{
+    background-image: url(../img/construction.png);
+}
+
+.carousel-caption{
+    font-size: 140px;
+}
+
+
+
+ 
+.text-container{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    max-height:  100vh;
+    max-width:500px;
+    background-color: purple;
+    margin-left: 20px;
+    margin-top: 13px;
+    
+   
+
+}
+
+.big_text h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130px;
+    font-weight: bold;
+}
+
+.big_text{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 150px;
+   font-weight: bold;
+    
+}
+  .wave{
+      margin-top: 300px;
+  }
+
+  .label_required_field::before {
+    content: '*';
+    font-size: 24px;
+    color: red;
+}
+
+#contact  form {
+    border: 1px solid var(--main_color);
+    border-radius: 10px;
+    padding: 18px;
+    color: white
+}
+
+.btn{
+    color:white;
+}
+
+.row{
+    justify-content: flex-end;
+    z-index: 3;
+    background-color: darkgray;
+}
+
+
+#contact  form {
+    border: 1px solid var(--main_color);
+    border-radius: 10px;
+    padding: 18px;
+    margin-right: 50px;
+}
+
+#contact #accordion .card,
+#contact #accordion .card .card-header,
+#contact form button {
+    border-color: var(--main_color);
+}
+
+#contact{
+    background-color: darkgreen;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+/* 
+@media screen and (min-width: 601px) {
+    div.text-container {
+      font-size: 130px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    div.text-container {
+      height:200px;
+      width:300px;
+      font-size: 70px;
+    }
+  } */
